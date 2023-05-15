@@ -1,0 +1,11 @@
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\bin\Debug\CadastroLocalof.exe.config
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\bin\Debug\CadastroLocalof.exe
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\bin\Debug\CadastroLocalof.pdb
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.csproj.AssemblyReference.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.csproj.SuggestedBindingRedirects.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.Properties.Resources.resources
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.csproj.GenerateResource.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.csproj.CoreCompileInputs.cache
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.exe
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.pdb
+C:\Users\estagiario3\Desktop\Movtech-Paciente-Api\CadastroLocalof\CadastroLocalof\obj\Debug\CadastroLocalof.Form1.resources
