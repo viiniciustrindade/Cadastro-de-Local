@@ -49,27 +49,25 @@
             this.labelNomeAutor.Location = new System.Drawing.Point(16, 43);
             this.labelNomeAutor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNomeAutor.Name = "labelNomeAutor";
-            this.labelNomeAutor.Size = new System.Drawing.Size(118, 20);
+            this.labelNomeAutor.Size = new System.Drawing.Size(110, 20);
             this.labelNomeAutor.TabIndex = 37;
-            this.labelNomeAutor.Text = "Descrição Seção";
+            this.labelNomeAutor.Text = "Descrição local";
             // 
             // txtCodLocal
             // 
             this.txtCodLocal.BackColor = System.Drawing.SystemColors.Window;
             this.txtCodLocal.Enabled = false;
             this.txtCodLocal.Location = new System.Drawing.Point(145, 15);
-            this.txtCodLocal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodLocal.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodLocal.Name = "txtCodLocal";
             this.txtCodLocal.Size = new System.Drawing.Size(85, 22);
             this.txtCodLocal.TabIndex = 38;
             // 
             // txtDescLocal
             // 
-            this.txtDescLocal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDescLocal.BackColor = System.Drawing.SystemColors.Info;
             this.txtDescLocal.Location = new System.Drawing.Point(145, 43);
-            this.txtDescLocal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescLocal.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescLocal.Multiline = true;
             this.txtDescLocal.Name = "txtDescLocal";
             this.txtDescLocal.Size = new System.Drawing.Size(432, 54);
@@ -83,7 +81,7 @@
             this.btn_Salvar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Salvar.ForeColor = System.Drawing.Color.Black;
             this.btn_Salvar.Location = new System.Drawing.Point(597, 43);
-            this.btn_Salvar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Salvar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Salvar.Name = "btn_Salvar";
             this.btn_Salvar.Size = new System.Drawing.Size(101, 27);
             this.btn_Salvar.TabIndex = 40;
@@ -97,7 +95,7 @@
             this.btn_Excluir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Excluir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Excluir.Location = new System.Drawing.Point(597, 70);
-            this.btn_Excluir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Excluir.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Excluir.Name = "btn_Excluir";
             this.btn_Excluir.Size = new System.Drawing.Size(101, 27);
             this.btn_Excluir.TabIndex = 41;
@@ -120,7 +118,7 @@
             this.colDescLocal});
             this.dadosGrid.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dadosGrid.Location = new System.Drawing.Point(20, 105);
-            this.dadosGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dadosGrid.Margin = new System.Windows.Forms.Padding(4);
             this.dadosGrid.Name = "dadosGrid";
             this.dadosGrid.ReadOnly = true;
             this.dadosGrid.RowHeadersWidth = 51;
@@ -133,7 +131,7 @@
             // 
             this.colCodLocal.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.colCodLocal.FillWeight = 152.2843F;
-            this.colCodLocal.HeaderText = "Codigo";
+            this.colCodLocal.HeaderText = "Código";
             this.colCodLocal.MinimumWidth = 6;
             this.colCodLocal.Name = "colCodLocal";
             this.colCodLocal.ReadOnly = true;
@@ -142,7 +140,7 @@
             // colDescLocal
             // 
             this.colDescLocal.FillWeight = 73.85786F;
-            this.colDescLocal.HeaderText = "Descrição";
+            this.colDescLocal.HeaderText = "Descrição local";
             this.colDescLocal.MinimumWidth = 6;
             this.colDescLocal.Name = "colDescLocal";
             this.colDescLocal.ReadOnly = true;
@@ -160,7 +158,6 @@
             // 
             // asteriscoAlert
             // 
-            this.asteriscoAlert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.asteriscoAlert.AutoSize = true;
             this.asteriscoAlert.Cursor = System.Windows.Forms.Cursors.Hand;
             this.asteriscoAlert.ForeColor = System.Drawing.Color.Red;
@@ -171,7 +168,7 @@
             this.asteriscoAlert.Text = "*";
             this.asteriscoAlert.MouseHover += new System.EventHandler(this.asteriscoAlert_MouseHover);
             // 
-            // Form1
+            // FrmCadastroLocal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -186,10 +183,10 @@
             this.Controls.Add(this.txtCodLocal);
             this.Controls.Add(this.labelNomeAutor);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "FrmCadastroLocal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastro Local";
+            this.Text = "Cadastro local";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dadosGrid)).EndInit();
             this.ResumeLayout(false);
@@ -206,9 +203,9 @@
         private System.Windows.Forms.Button btn_Excluir;
         private System.Windows.Forms.DataGridView dadosGrid;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label asteriscoAlert;
         private System.Windows.Forms.DataGridViewTextBoxColumn colCodLocal;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDescLocal;
-        private System.Windows.Forms.Label asteriscoAlert;
     }
 }
 
